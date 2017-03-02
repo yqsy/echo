@@ -1,0 +1,107 @@
+Bufsize: 16384 Threads: 1 Sessions: 1
+2601975808 total bytes written
+2601959424 total bytes read
+Bufsize: 16384 Threads: 1 Sessions: 10
+18557419520 total bytes written
+18557255680 total bytes read
+echo_test.sh: line 9: 11315 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 1 Sessions: 100
+12081004544 total bytes written
+12079366144 total bytes read
+echo_test.sh: line 9: 11317 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 2 Sessions: 1
+2682388480 total bytes written
+2682372096 total bytes read
+echo_test.sh: line 9: 11319 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 2 Sessions: 10
+18057494528 total bytes written
+18057330688 total bytes read
+echo_test.sh: line 9: 11321 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 2 Sessions: 100
+13018939392 total bytes written
+13017317376 total bytes read
+echo_test.sh: line 9: 11325 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 4 Sessions: 1
+2691956736 total bytes written
+2691940352 total bytes read
+echo_test.sh: line 9: 11329 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 4 Sessions: 10
+18850136064 total bytes written
+18849988608 total bytes read
+echo_test.sh: line 9: 11333 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 16384 Threads: 4 Sessions: 100
+13090619392 total bytes written
+13088980992 total bytes read
+echo_test.sh: line 9: 11341 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 1 Sessions: 1
+4885610496 total bytes written
+4885577728 total bytes read
+echo_test.sh: line 9: 11350 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 1 Sessions: 10
+28420833280 total bytes written
+28420505600 total bytes read
+echo_test.sh: line 9: 11358 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 1 Sessions: 100
+11212029952 total bytes written
+11209605120 total bytes read
+echo_test.sh: line 9: 11360 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 2 Sessions: 1
+4886855680 total bytes written
+4886822912 total bytes read
+echo_test.sh: line 9: 11362 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 2 Sessions: 10
+27866791936 total bytes written
+27866464256 total bytes read
+echo_test.sh: line 9: 11364 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 2 Sessions: 100
+11767600512 total bytes written
+11764946304 total bytes read
+echo_test.sh: line 9: 11368 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 4 Sessions: 1
+4744937472 total bytes written
+4744904704 total bytes read
+echo_test.sh: line 9: 11372 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 4 Sessions: 10
+28175433728 total bytes written
+28175138816 total bytes read
+echo_test.sh: line 9: 11376 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 32768 Threads: 4 Sessions: 100
+11823546368 total bytes written
+11820269568 total bytes read
+echo_test.sh: line 9: 11384 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 1 Sessions: 1
+7239499368 total bytes written
+7239433832 total bytes read
+echo_test.sh: line 9: 11392 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 1 Sessions: 10
+27350072596 total bytes written
+27349417236 total bytes read
+echo_test.sh: line 9: 11401 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 1 Sessions: 100
+10302258248 total bytes written
+10295770184 total bytes read
+echo_test.sh: line 9: 11403 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 2 Sessions: 1
+7335313408 total bytes written
+7335247872 total bytes read
+echo_test.sh: line 9: 11405 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 2 Sessions: 10
+27521341880 total bytes written
+27520686520 total bytes read
+echo_test.sh: line 9: 11407 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 2 Sessions: 100
+9544524964 total bytes written
+9538036900 total bytes read
+echo_test.sh: line 9: 11411 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 4 Sessions: 1
+7590685014 total bytes written
+7590619478 total bytes read
+echo_test.sh: line 9: 11415 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 4 Sessions: 10
+27035339008 total bytes written
+27034880188 total bytes read
+echo_test.sh: line 9: 11419 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
+Bufsize: 65536 Threads: 4 Sessions: 100
+9244572404 total bytes written
+9238018804 total bytes read
+echo_test.sh: line 9: 11427 Killed                  ./build/bin/server 0.0.0.0 55555 $nothreads $bufsize
