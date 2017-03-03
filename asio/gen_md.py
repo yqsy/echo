@@ -24,7 +24,7 @@ if __name__== "__main__":
         write = int(int(re.search(writen_bytes_re,one_report).group())/1024/1024/10)
         read = int(int(re.search(read_bytes_re,one_report).group())/1024/1024/10)
 
-        one_row = '|{Buffer} KB|{Threads}|{Sessions}|{Write} MB/s|{Read} MB/s|'.format(Buffer=re.search(buffersize_re,one_report).group(),
+        one_row = '|{Buffer} BYTES|{Threads}|{Sessions}|{Write} MB/s|{Read} MB/s|'.format(Buffer=re.search(buffersize_re,one_report).group(),
                     Threads=re.search(threads_re,one_report).group(),
                     Sessions=re.search(sessiongs_re,one_report).group(),
                     Write=write,
