@@ -1,10 +1,12 @@
-###吞吐量测试
-测试环境:
-`Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz` `2核心` `4G`
-'centos7' `g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-11)` `go version go1.6.3 linux/amd64`
-###asio
+###吞吐量测试  
+测试环境:  
+`Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz` `2核心` `4G`  
+`centos7`  
+`g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-11)`  
+`go version go1.6.3 linux/amd64`  
+###asio  
 |Buffer|Threads|Sessions|Writes|Read|
-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|
 |16384 BYTES|1|1|248 MB/s|248 MB/s|
 |16384 BYTES|1|10|1769 MB/s|1769 MB/s|
 |16384 BYTES|1|100|1152 MB/s|1151 MB/s|
@@ -33,9 +35,9 @@
 |65536 BYTES|4|10|2578 MB/s|2578 MB/s|
 |65536 BYTES|4|100|881 MB/s|881 MB/s|
 
-###golang 
+###golang  
 |Buffer|Threads|Sessions|Writes|Read|
-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|
 |16384 BYTES|1|1|202 MB/s|202 MB/s|
 |16384 BYTES|1|10|1384 MB/s|1384 MB/s|
 |16384 BYTES|1|100|1116 MB/s|1116 MB/s|
@@ -63,3 +65,8 @@
 |65536 BYTES|4|1|1520 MB/s|1520 MB/s|
 |65536 BYTES|4|10|1540 MB/s|1540 MB/s|
 |65536 BYTES|4|100|875 MB/s|874 MB/s|
+
+
+####相关链接
+[asio性能测试方法](http://think-async.com/Asio/LinuxPerformanceImprovements)  
+[asio代码](http://asio.cvs.sourceforge.net/viewvc/asio/asio/src/tests/performance/)  
