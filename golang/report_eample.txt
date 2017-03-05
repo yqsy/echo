@@ -1,0 +1,81 @@
+Bufsize: 16384 Threads: 1 Sessions: 1
+2128101376 total bytes written
+2128084992 total bytes read
+Bufsize: 16384 Threads: 1 Sessions: 10
+14515912704 total bytes written
+14515748864 total bytes read
+Bufsize: 16384 Threads: 1 Sessions: 100
+11704827904 total bytes written
+11703205888 total bytes read
+Bufsize: 16384 Threads: 2 Sessions: 1
+2217345024 total bytes written
+2217328640 total bytes read
+Bufsize: 16384 Threads: 2 Sessions: 10
+13873840128 total bytes written
+13873676288 total bytes read
+Bufsize: 16384 Threads: 2 Sessions: 100
+10274537472 total bytes written
+10272931840 total bytes read
+Bufsize: 16384 Threads: 4 Sessions: 1
+2062614528 total bytes written
+2062598144 total bytes read
+Bufsize: 16384 Threads: 4 Sessions: 10
+13978763264 total bytes written
+13978599424 total bytes read
+Bufsize: 16384 Threads: 4 Sessions: 100
+10083090432 total bytes written
+10081452032 total bytes read
+Bufsize: 32768 Threads: 1 Sessions: 1
+5290754048 total bytes written
+5290721280 total bytes read
+Bufsize: 32768 Threads: 1 Sessions: 10
+14335705088 total bytes written
+14335377408 total bytes read
+Bufsize: 32768 Threads: 1 Sessions: 100
+9602646016 total bytes written
+9599893504 total bytes read
+Bufsize: 32768 Threads: 2 Sessions: 1
+5549424640 total bytes written
+5549391872 total bytes read
+Bufsize: 32768 Threads: 2 Sessions: 10
+14422065152 total bytes written
+14421770240 total bytes read
+Bufsize: 32768 Threads: 2 Sessions: 100
+9862660096 total bytes written
+9859432448 total bytes read
+Bufsize: 32768 Threads: 4 Sessions: 1
+7756627968 total bytes written
+7756611584 total bytes read
+Bufsize: 32768 Threads: 4 Sessions: 10
+14813085696 total bytes written
+14812758016 total bytes read
+Bufsize: 32768 Threads: 4 Sessions: 100
+9860710400 total bytes written
+9857466368 total bytes read
+Bufsize: 65536 Threads: 1 Sessions: 1
+16033546240 total bytes written
+16033497088 total bytes read
+Bufsize: 65536 Threads: 1 Sessions: 10
+16701292184 total bytes written
+16700669592 total bytes read
+Bufsize: 65536 Threads: 1 Sessions: 100
+11202557480 total bytes written
+11196134952 total bytes read
+Bufsize: 65536 Threads: 2 Sessions: 1
+14936342528 total bytes written
+14936309760 total bytes read
+Bufsize: 65536 Threads: 2 Sessions: 10
+16360275824 total bytes written
+16359620464 total bytes read
+Bufsize: 65536 Threads: 2 Sessions: 100
+9762990968 total bytes written
+9757485944 total bytes read
+Bufsize: 65536 Threads: 4 Sessions: 1
+15944908800 total bytes written
+15944843264 total bytes read
+Bufsize: 65536 Threads: 4 Sessions: 10
+16152264128 total bytes written
+16151641536 total bytes read
+Bufsize: 65536 Threads: 4 Sessions: 100
+9175153752 total bytes written
+9168993368 total bytes read

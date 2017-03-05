@@ -2,19 +2,20 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"net"
 	"os"
 )
 
-const (
-	CONN_HOST = ""
-	CONN_PORT = "3333"
-	CONN_TYPE = "tcp"
-)
-
 func main() {
-	l, err := net.Listen(CONN_TYPE, ":"+CONN_PORT)
+	conn_port := flag.String("conn_port", "55555", "bind port")
+	bufsize := flag.Int("bufsize", 8192, "send/recv bufsize")
+
+	flag.Parse()
+
+	l, err := net.Listen("tcp", ":"+*conn_port)
+
 	if err != nil {
 		fmt.Println("Error listening:", err.Error())
 		os.Exit(1)
@@ -27,17 +28,16 @@ func main() {
 			fmt.Println("Error accepting: ", err.Error())
 			os.Exit(1)
 		}
-		go handleRequest(conn)
+		go handleRequest(conn, *bufsize)
 	}
 }
 
-func handleRequest(conn net.Conn) {
+func handleRequest(conn net.Conn, bufsize int) {
 	var (
-		buf = make([]byte, 8192)
+		buf = make([]byte, bufsize)
 		r   = bufio.NewReader(conn)
 		w   = bufio.NewWriter(conn)
 	)
-
 	defer conn.Close()
 
 	for {
