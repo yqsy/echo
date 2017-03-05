@@ -1,6 +1,6 @@
-###ÍÌÍÂÁ¿²âÊÔ
-²âÊÔ»·¾³:
-`Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz` `2ºËĞÄ` `4G`
+###ååé‡æµ‹è¯•
+æµ‹è¯•ç¯å¢ƒ:
+`Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz` `2æ ¸å¿ƒ` `4G`
 'centos7' `g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-11)` `go version go1.6.3 linux/amd64`
 ###asio
 |Buffer|Threads|Sessions|Writes|Read|
